@@ -1,0 +1,57 @@
+title: Activity
+description: 
+projectname: EDBLite
+author: Germán Fuentes Capella
+github: https://github.com/edblite
+about: Embedded and Encrypted database in Python
+disqus_shortname: 
+google_analytics: 
+avatar_url: /static/img/avatar.jpg
+
+enableTags: true
+tagarray: []
+
+collections:
+  project:
+    output: true
+    permalink: /project/:path/
+
+social:
+    # - icon: fa-facebook
+    #   link: "#"
+    # - icon: fa-twitter
+    #   link: "https://twitter.com/..."
+    # - icon: fa-linkedin
+    #   link: "https://www.linkedin.com/in/..."
+    # - icon: fa-stack-exchange
+    #   link: "#"
+    - icon: fa-github
+      link: "https://github.com/edblite"
+
+share:
+  twitter_username: 
+  fb_appid: 
+  google_activate:
+
+urls:
+    # - text: Documentation
+    #   url: https://edblite.readthedocs.io
+    - text: XML Feed
+      url: /feed.xml
+
+url: "http://www.edblite.org"
+baseurl: ""
+paginate: 20
+per_page: 20
+paginate_path: "/page/:num/"
+markdown: kramdown
+plugins:
+  - jekyll-paginate
+  - jekyll-gist
+  - i18n
+  - github-pages
+
+compress_html:
+  clippings: all
+  comments: ["<!-- ", " -->"]
+  endings: all
