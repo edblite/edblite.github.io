@@ -3,7 +3,7 @@ description:
 projectname: EDBLite
 author: Germán Fuentes Capella
 github: https://github.com/edblite
-about: Embedded and Encrypted database in Python
+about: Embedded and Encrypted database in Rust
 disqus_shortname: 
 google_analytics: 
 avatar_url: /static/img/avatar.jpg
